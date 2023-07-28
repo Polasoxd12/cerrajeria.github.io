@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrajería Ayala Cruz </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cerrajería Ayala Cruz </h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="https://goo.gl/maps/uZkpDZnvAvjEX8ne9" target="_blank">Ubicacion</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>¡Bienvenido a Cerrajería Ayala Cruz !</h2>
+        <p>Ofrecemos servicios de cerrajería confiables y seguros para proteger tu hogar y negocio.</p>
+        <a href="#contacto" class="cta-btn">Contáctanos</a>
+    </section>
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Apertura de puertas</li>
+            <a href="https://definicion.de/apertura/#:~:text=La%20apertura%20de%20una%20puerta%20implica%20empujarla%20para%20separarla%20de%20su%20marco." class="btn-1">Mas infomacion</a>
+            <li>Cambio de cerraduras</li><a href="https://academia3e.com/comunidad/como-cambiar-la-combinacion-de-una-cerradura/" class="btn-1">Mas infomacion</a>
+            <li>Duplicado de llaves</li><a href="https://es.wikipedia.org/wiki/Duplicado_de_llaves" class="btn-1">Mas infomacion</a>
+            <li>Mantenimiento de cerraduras</li><a href="" class="btn-1">Mas infomacion</a>
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Envíanos un mensaje y nos pondremos en contacto con nosotros.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" rows="4" required></textarea>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <section id="chatbot">
+        <h2>Chatbot</h2>
+        <div id="chat-container">
+            <div id="chat-log">
+                <div class="bot-message">Hola, ¿en qué puedo ayudarte?</div>
+            </div>
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí..." />
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    <footer>
+        
+        <p>Todos los derechos reservados &copy; Cerrajería Ayala Cruz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+</html>
+
